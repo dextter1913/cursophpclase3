@@ -76,4 +76,47 @@ class controller
         require_once 'app\views\modules\condicionales.phtml';
         piedepagina();
     }
+
+    //arrays
+
+    public static function Arrays()
+    {
+        $Usuarios[] = array(
+            "Nombre" => "Cristian",
+            "Apellido" => "Aguirre",
+            "Correo" => "Dextter1913@gmail.com"
+        );
+        $Usuarios[] = array(
+            "Nombre" => "Camilo",
+            "Apellido" => "Monsalve",
+            "Correo" => "mijita6790@gmail.com"
+        );
+        $Usuarios[] = array(
+            "Nombre" => "Laura",
+            "Apellido" => "Escobar",
+            "Correo" => "omg233@gmail.com"
+        );
+        $Usuarios[] = array(
+            "Nombre" => "Maria",
+            "Apellido" => "Solorzano",
+            "Correo" => "Mary1999@gmail.com"
+        );
+        $Usuarios[] = array(
+            "Nombre" => "Estefania",
+            "Apellido" => "Arrieta",
+            "Correo" => "stefa4567@gmail.com"
+        );
+        $Usuarios[] = array(
+            "Nombre" => "Carolina",
+            "Apellido" => "Escudero",
+            "Correo" => "Caro1254@gmail.com"
+        );
+        cabecera();
+        Nav();
+
+
+        require_once 'app\views\modules\TablaArray.phtml';
+        //var_dump($Usuarios);
+        piedepagina();
+    }
 }
