@@ -78,7 +78,6 @@ class controller
     }
 
     //arrays
-
     public static function Arrays()
     {
         $Usuarios[] = array(
