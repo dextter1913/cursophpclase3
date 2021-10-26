@@ -118,4 +118,18 @@ class controller
         //var_dump($Usuarios);
         piedepagina();
     }
+
+    //Encriptacion
+    public static function Encriptacion(){
+        $clave = '12345';
+        cabecera();
+        Nav();
+
+
+
+        require_once 'app\views\modules\MetodosEncripcion.phtml';
+
+
+        piedepagina();
+    }
 }
