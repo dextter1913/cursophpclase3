@@ -19,7 +19,7 @@
                         <tr>
                             <td><?= $key['Nombre'] ?></td>
                             <td><?= $key['Apellido'] ?></td>
-                            <td><?= $key['Correo'] ?></td>
+                            <td><a href="mailto:<?= $key['Correo'] ?>"><?= $key['Correo'] ?></a></td>
                         </tr>
                     <?php } ?>
                 </tbody>
