@@ -81,34 +81,34 @@ class controller
     public static function Arrays()
     {
         $Usuarios[] = array(
-            "Nombre" => "Cristian",
+            "Nombre"   => "Cristian",
             "Apellido" => "Aguirre",
-            "Correo" => "Dextter1913@gmail.com"
+            "Correo"   => "Dextter1913@gmail.com"
         );
         $Usuarios[] = array(
-            "Nombre" => "Camilo",
+            "Nombre"   => "Camilo",
             "Apellido" => "Monsalve",
-            "Correo" => "mijita6790@gmail.com"
+            "Correo"   => "mijita6790@gmail.com"
         );
         $Usuarios[] = array(
-            "Nombre" => "Laura",
+            "Nombre"   => "Laura",
             "Apellido" => "Escobar",
-            "Correo" => "omg233@gmail.com"
+            "Correo"   => "omg233@gmail.com"
         );
         $Usuarios[] = array(
-            "Nombre" => "Maria",
+            "Nombre"   => "Maria",
             "Apellido" => "Solorzano",
-            "Correo" => "Mary1999@gmail.com"
+            "Correo"   => "Mary1999@gmail.com"
         );
         $Usuarios[] = array(
-            "Nombre" => "Estefania",
+            "Nombre"   => "Estefania",
             "Apellido" => "Arrieta",
-            "Correo" => "stefa4567@gmail.com"
+            "Correo"   => "stefa4567@gmail.com"
         );
         $Usuarios[] = array(
-            "Nombre" => "Carolina",
+            "Nombre"   => "Carolina",
             "Apellido" => "Escudero",
-            "Correo" => "Caro1254@gmail.com"
+            "Correo"   => "Caro1254@gmail.com"
         );
         cabecera();
         Nav();
